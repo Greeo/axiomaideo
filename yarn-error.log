@@ -1,0 +1,61 @@
+Arguments: 
+  /usr/local/Cellar/node/13.3.0/bin/node /usr/local/Cellar/yarn/1.21.1/libexec/bin/yarn.js add [package] --dev
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/omaragreeene/.local/install/node/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  13.3.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/omaragreeene/apps/React/axiomaideo/package.json: Unexpected token } in JSON at position 794
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "axiomaideo",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "https://greeo.github.io/ficus/",
+    "dependencies": {
+      "ajv": "^6.5.0",
+      "lodash": "^4.17.10",
+      "npm": "^6.1.0",
+      "react": "^16.3.2",
+      "react-dom": "^16.3.2",
+      "react-particles-js": "^2.1.3",
+      "react-scripts": "1.1.4",
+      "react-tilt": "^0.1.4",
+      "tachyons": "^4.9.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+      "eject": "react-scripts eject"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
